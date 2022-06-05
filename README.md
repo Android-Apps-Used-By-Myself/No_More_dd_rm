@@ -1,4 +1,4 @@
-This is a magisk module can automatically deny dd/rm command by overlaying a toybox script on the toybox bin
+This is a magisk module can automatically deny dd/rm command by overlaying a toybox script on the toybox bin (bash required)
 >Please use `toybox DD` or `toybox RM` instead
 
 # There is no protection better than keeping careful when installing apps and grant permission to them youself
