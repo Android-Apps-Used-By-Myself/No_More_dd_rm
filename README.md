@@ -3,4 +3,4 @@ This is a magisk module can automatically deny dd/rm command by overlaying a toy
 
 # There is no protection better than keeping careful when installing apps and grant permission to them youself
 
-## It may not work properly or make other module which use `dd` `rm` command since it is an experimental project
+## It may not work properly or make other module which use `dd` `rm` command not work since it is an experimental project
