@@ -4,10 +4,10 @@ if [ -e /system/bin/toybox ]||[ -e /system/bin/toybox-bin ];then
     else 
         if [ -e /system/bin/toybox-bin ];then
             cp /system/bin/toybox-bin /sdcard/Download/toybox.backup
-        echo "- /sdcard/Download/toybox.backup not found. backup system/bin/toybox-bin to /sdcard/Download/toybox.backup"
+        echo "- /sdcard/Download/toybox.backup not found. backup /system/bin/toybox-bin to /sdcard/Download/toybox.backup"
         elif [ -e /system/bin/toybox ];then
             cp /system/bin/toybox /sdcard/Download/toybox.backup
-        echo "- /sdcard/Download/toybox.backup not found. backup system/bin/toybox to /sdcard/Download/toybox.backup"
+        echo "- /sdcard/Download/toybox.backup not found. backup /system/bin/toybox to /sdcard/Download/toybox.backup"
         fi
     fi
     echo "- Backup check is done."
